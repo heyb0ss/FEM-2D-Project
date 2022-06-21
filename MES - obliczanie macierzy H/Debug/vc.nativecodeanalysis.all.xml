@@ -1,0 +1,254 @@
+﻿<?xml version="1.0" encoding="utf-8"?><DEFECTS><DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\miche\source\repos\MES - obliczanie macierzy H\MES - obliczanie macierzy H\</FILEPATH>
+      <FILENAME>MES - obliczanie macierzy H.cpp</FILENAME>
+      <LINE>356</LINE>
+      <COLUMN>38</COLUMN>
+    </SFA>
+    <DEFECTCODE>6385</DEFECTCODE>
+    <DESCRIPTION>Odczyt nieprawidłowych danych z elementu „nodes”: rozmiar obszaru do odczytu to „nN*32”, ale odczytana liczba bajtów może wynieść: „64”.</DESCRIPTION>
+    <FUNCTION>Grid::{ctor}</FUNCTION>
+    <DECORATED>??0Grid@@QAE@NNHH@Z</DECORATED>
+    <FUNCLINE>339</FUNCLINE>
+    <PROBABILITY>1</PROBABILITY>
+    <RANK>4</RANK>
+    <CATEGORY>
+      <RULECATEGORY>mspft</RULECATEGORY>
+    </CATEGORY>
+    <PATH>
+      <SFA>
+        <FILEPATH>C:\Users\miche\source\repos\MES - obliczanie macierzy H\MES - obliczanie macierzy H\</FILEPATH>
+        <FILENAME>MES - obliczanie macierzy H.cpp</FILENAME>
+        <LINE>341</LINE>
+        <COLUMN>10</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\miche\source\repos\MES - obliczanie macierzy H\MES - obliczanie macierzy H\</FILEPATH>
+        <FILENAME>MES - obliczanie macierzy H.cpp</FILENAME>
+        <LINE>342</LINE>
+        <COLUMN>10</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\miche\source\repos\MES - obliczanie macierzy H\MES - obliczanie macierzy H\</FILEPATH>
+        <FILENAME>MES - obliczanie macierzy H.cpp</FILENAME>
+        <LINE>343</LINE>
+        <COLUMN>11</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\miche\source\repos\MES - obliczanie macierzy H\MES - obliczanie macierzy H\</FILEPATH>
+        <FILENAME>MES - obliczanie macierzy H.cpp</FILENAME>
+        <LINE>344</LINE>
+        <COLUMN>11</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\miche\source\repos\MES - obliczanie macierzy H\MES - obliczanie macierzy H\</FILEPATH>
+        <FILENAME>MES - obliczanie macierzy H.cpp</FILENAME>
+        <LINE>345</LINE>
+        <COLUMN>11</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\miche\source\repos\MES - obliczanie macierzy H\MES - obliczanie macierzy H\</FILEPATH>
+        <FILENAME>MES - obliczanie macierzy H.cpp</FILENAME>
+        <LINE>346</LINE>
+        <COLUMN>11</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\miche\source\repos\MES - obliczanie macierzy H\MES - obliczanie macierzy H\</FILEPATH>
+        <FILENAME>MES - obliczanie macierzy H.cpp</FILENAME>
+        <LINE>349</LINE>
+        <COLUMN>14</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\miche\source\repos\MES - obliczanie macierzy H\MES - obliczanie macierzy H\</FILEPATH>
+        <FILENAME>MES - obliczanie macierzy H.cpp</FILENAME>
+        <LINE>350</LINE>
+        <COLUMN>15</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\miche\source\repos\MES - obliczanie macierzy H\MES - obliczanie macierzy H\</FILEPATH>
+        <FILENAME>MES - obliczanie macierzy H.cpp</FILENAME>
+        <LINE>351</LINE>
+        <COLUMN>15</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\miche\source\repos\MES - obliczanie macierzy H\MES - obliczanie macierzy H\</FILEPATH>
+        <FILENAME>MES - obliczanie macierzy H.cpp</FILENAME>
+        <LINE>353</LINE>
+        <COLUMN>12</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\miche\source\repos\MES - obliczanie macierzy H\MES - obliczanie macierzy H\</FILEPATH>
+        <FILENAME>MES - obliczanie macierzy H.cpp</FILENAME>
+        <LINE>354</LINE>
+        <COLUMN>17</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\miche\source\repos\MES - obliczanie macierzy H\MES - obliczanie macierzy H\</FILEPATH>
+        <FILENAME>MES - obliczanie macierzy H.cpp</FILENAME>
+        <LINE>354</LINE>
+        <COLUMN>26</COLUMN>
+        <KEYEVENT>
+          <ID>1</ID>
+          <KIND>branch</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>Wejdź do tej pętli (przyjmowane jest: „i&lt;nB”)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\miche\source\repos\MES - obliczanie macierzy H\MES - obliczanie macierzy H\</FILEPATH>
+        <FILENAME>MES - obliczanie macierzy H.cpp</FILENAME>
+        <LINE>355</LINE>
+        <COLUMN>21</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\miche\source\repos\MES - obliczanie macierzy H\MES - obliczanie macierzy H\</FILEPATH>
+        <FILENAME>MES - obliczanie macierzy H.cpp</FILENAME>
+        <LINE>355</LINE>
+        <COLUMN>30</COLUMN>
+        <KEYEVENT>
+          <ID>2</ID>
+          <KIND>branch</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>Wejdź do tej pętli (przyjmowane jest: „j&lt;nH”)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\miche\source\repos\MES - obliczanie macierzy H\MES - obliczanie macierzy H\</FILEPATH>
+        <FILENAME>MES - obliczanie macierzy H.cpp</FILENAME>
+        <LINE>356</LINE>
+        <COLUMN>38</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\miche\source\repos\MES - obliczanie macierzy H\MES - obliczanie macierzy H\</FILEPATH>
+        <FILENAME>MES - obliczanie macierzy H.cpp</FILENAME>
+        <LINE>357</LINE>
+        <COLUMN>17</COLUMN>
+        <KEYEVENT>
+          <ID>3</ID>
+          <KIND>declaration</KIND>
+          <IMPORTANCE>Essential</IMPORTANCE>
+          <MESSAGE>Element „g” może mieć wartość równą 1</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\miche\source\repos\MES - obliczanie macierzy H\MES - obliczanie macierzy H\</FILEPATH>
+        <FILENAME>MES - obliczanie macierzy H.cpp</FILENAME>
+        <LINE>355</LINE>
+        <COLUMN>37</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\miche\source\repos\MES - obliczanie macierzy H\MES - obliczanie macierzy H\</FILEPATH>
+        <FILENAME>MES - obliczanie macierzy H.cpp</FILENAME>
+        <LINE>355</LINE>
+        <COLUMN>30</COLUMN>
+        <KEYEVENT>
+          <ID>4</ID>
+          <KIND>branch</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>Wyjdź z tej pętli (przyjmowane jest, że element „j&lt;nH” ma wartość false)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\miche\source\repos\MES - obliczanie macierzy H\MES - obliczanie macierzy H\</FILEPATH>
+        <FILENAME>MES - obliczanie macierzy H.cpp</FILENAME>
+        <LINE>354</LINE>
+        <COLUMN>33</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\miche\source\repos\MES - obliczanie macierzy H\MES - obliczanie macierzy H\</FILEPATH>
+        <FILENAME>MES - obliczanie macierzy H.cpp</FILENAME>
+        <LINE>354</LINE>
+        <COLUMN>26</COLUMN>
+        <KEYEVENT>
+          <ID>5</ID>
+          <KIND>branch</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>Kontynuuj tę pętlę (przyjmowane jest: „i&lt;nB”)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\miche\source\repos\MES - obliczanie macierzy H\MES - obliczanie macierzy H\</FILEPATH>
+        <FILENAME>MES - obliczanie macierzy H.cpp</FILENAME>
+        <LINE>355</LINE>
+        <COLUMN>21</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\miche\source\repos\MES - obliczanie macierzy H\MES - obliczanie macierzy H\</FILEPATH>
+        <FILENAME>MES - obliczanie macierzy H.cpp</FILENAME>
+        <LINE>355</LINE>
+        <COLUMN>30</COLUMN>
+        <KEYEVENT>
+          <ID>6</ID>
+          <KIND>branch</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>Wejdź do tej pętli (przyjmowane jest: „j&lt;nH”)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\miche\source\repos\MES - obliczanie macierzy H\MES - obliczanie macierzy H\</FILEPATH>
+        <FILENAME>MES - obliczanie macierzy H.cpp</FILENAME>
+        <LINE>356</LINE>
+        <COLUMN>38</COLUMN>
+        <KEYEVENT>
+          <ID>7</ID>
+          <KIND>declaration</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>Element „g” jest argumentem We/Wy dla elementu „Node::uzupelnijNode” (deklaracja w wierszu 264)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\miche\source\repos\MES - obliczanie macierzy H\MES - obliczanie macierzy H\</FILEPATH>
+        <FILENAME>MES - obliczanie macierzy H.cpp</FILENAME>
+        <LINE>356</LINE>
+        <COLUMN>38</COLUMN>
+        <KEYEVENT>
+          <ID>8</ID>
+          <KIND>usage</KIND>
+          <IMPORTANCE>Essential</IMPORTANCE>
+          <MESSAGE>Nieprawidłowy odczyt z elementu „nodes[1]” (czytelny zakres od 0 do 0)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+    </PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\miche\source\repos\MES - obliczanie macierzy H\MES - obliczanie macierzy H\</FILEPATH>
+      <FILENAME>MES - obliczanie macierzy H.cpp</FILENAME>
+      <LINE>350</LINE>
+      <COLUMN>28</COLUMN>
+    </SFA>
+    <DEFECTCODE>26451</DEFECTCODE>
+    <DESCRIPTION>Przepełnienie arytmetyczne: użycie operatora „-” dla wartości bajtowej 4, a następnie rzutowanie wyniku na wartość bajtową 8. Rzutuj wartość na szerszy typ przed wywołaniem operatora „-” w celu uniknięcia przepełnienia (io.2).</DESCRIPTION>
+    <FUNCTION>Grid::{ctor}</FUNCTION>
+    <DECORATED>??0Grid@@QAE@NNHH@Z</DECORATED>
+    <FUNCLINE>339</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\miche\source\repos\MES - obliczanie macierzy H\MES - obliczanie macierzy H\</FILEPATH>
+      <FILENAME>MES - obliczanie macierzy H.cpp</FILENAME>
+      <LINE>351</LINE>
+      <COLUMN>28</COLUMN>
+    </SFA>
+    <DEFECTCODE>26451</DEFECTCODE>
+    <DESCRIPTION>Przepełnienie arytmetyczne: użycie operatora „-” dla wartości bajtowej 4, a następnie rzutowanie wyniku na wartość bajtową 8. Rzutuj wartość na szerszy typ przed wywołaniem operatora „-” w celu uniknięcia przepełnienia (io.2).</DESCRIPTION>
+    <FUNCTION>Grid::{ctor}</FUNCTION>
+    <DECORATED>??0Grid@@QAE@NNHH@Z</DECORATED>
+    <FUNCLINE>339</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\miche\source\repos\MES - obliczanie macierzy H\MES - obliczanie macierzy H\</FILEPATH>
+      <FILENAME>MES - obliczanie macierzy H.cpp</FILENAME>
+      <LINE>146</LINE>
+      <COLUMN>0</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Zmienna „calkowanieGaussa::ksiDane” jest niezainicjowana. Zawsze inicjuj zmienną składową (type.6).</DESCRIPTION>
+    <FUNCTION>calkowanieGaussa::{ctor}</FUNCTION>
+    <DECORATED>??0calkowanieGaussa@@QAE@XZ</DECORATED>
+    <FUNCLINE>146</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>calkowanieGaussa::ksiDane</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT></DEFECTS>

@@ -1,0 +1,573 @@
+{
+  "version": "2.1.0",
+  "$schema": "https://schemastore.azurewebsites.net/schemas/json/sarif-2.1.0-rtm.5.json",
+  "runs": [
+    {
+      "results": [
+        {
+          "ruleId": "C6385",
+          "message": {
+            "text": "Odczyt nieprawidłowych danych z elementu „nodes”: rozmiar obszaru do odczytu to „nN*32”, ale odczytana liczba bajtów może wynieść: „64”."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/miche/source/repos/MES - obliczanie macierzy H/MES - obliczanie macierzy H/MES - obliczanie macierzy H.cpp"
+                },
+                "region": {
+                  "startLine": 356,
+                  "startColumn": 17,
+                  "endLine": 356,
+                  "endColumn": 66
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "??0Grid@@QAE@NNHH@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "codeFlows": [
+            {
+              "threadFlows": [
+                {
+                  "locations": [
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/miche/source/repos/MES - obliczanie macierzy H/MES - obliczanie macierzy H/MES - obliczanie macierzy H.cpp"
+                          },
+                          "region": {
+                            "startLine": 341,
+                            "startColumn": 11
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/miche/source/repos/MES - obliczanie macierzy H/MES - obliczanie macierzy H/MES - obliczanie macierzy H.cpp"
+                          },
+                          "region": {
+                            "startLine": 342,
+                            "startColumn": 11
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/miche/source/repos/MES - obliczanie macierzy H/MES - obliczanie macierzy H/MES - obliczanie macierzy H.cpp"
+                          },
+                          "region": {
+                            "startLine": 343,
+                            "startColumn": 12
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/miche/source/repos/MES - obliczanie macierzy H/MES - obliczanie macierzy H/MES - obliczanie macierzy H.cpp"
+                          },
+                          "region": {
+                            "startLine": 344,
+                            "startColumn": 12
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/miche/source/repos/MES - obliczanie macierzy H/MES - obliczanie macierzy H/MES - obliczanie macierzy H.cpp"
+                          },
+                          "region": {
+                            "startLine": 345,
+                            "startColumn": 12
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/miche/source/repos/MES - obliczanie macierzy H/MES - obliczanie macierzy H/MES - obliczanie macierzy H.cpp"
+                          },
+                          "region": {
+                            "startLine": 346,
+                            "startColumn": 12
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/miche/source/repos/MES - obliczanie macierzy H/MES - obliczanie macierzy H/MES - obliczanie macierzy H.cpp"
+                          },
+                          "region": {
+                            "startLine": 349,
+                            "startColumn": 15
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/miche/source/repos/MES - obliczanie macierzy H/MES - obliczanie macierzy H/MES - obliczanie macierzy H.cpp"
+                          },
+                          "region": {
+                            "startLine": 350,
+                            "startColumn": 16
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/miche/source/repos/MES - obliczanie macierzy H/MES - obliczanie macierzy H/MES - obliczanie macierzy H.cpp"
+                          },
+                          "region": {
+                            "startLine": 351,
+                            "startColumn": 16
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/miche/source/repos/MES - obliczanie macierzy H/MES - obliczanie macierzy H/MES - obliczanie macierzy H.cpp"
+                          },
+                          "region": {
+                            "startLine": 353,
+                            "startColumn": 13
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/miche/source/repos/MES - obliczanie macierzy H/MES - obliczanie macierzy H/MES - obliczanie macierzy H.cpp"
+                          },
+                          "region": {
+                            "startLine": 354,
+                            "startColumn": 18
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/miche/source/repos/MES - obliczanie macierzy H/MES - obliczanie macierzy H/MES - obliczanie macierzy H.cpp"
+                          },
+                          "region": {
+                            "startLine": 354,
+                            "startColumn": 27
+                          }
+                        },
+                        "message": {
+                          "text": "Wejdź do tej pętli (przyjmowane jest: „i<nB”)"
+                        }
+                      },
+                      "kinds": [
+                        "branch"
+                      ],
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/miche/source/repos/MES - obliczanie macierzy H/MES - obliczanie macierzy H/MES - obliczanie macierzy H.cpp"
+                          },
+                          "region": {
+                            "startLine": 355,
+                            "startColumn": 22
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/miche/source/repos/MES - obliczanie macierzy H/MES - obliczanie macierzy H/MES - obliczanie macierzy H.cpp"
+                          },
+                          "region": {
+                            "startLine": 355,
+                            "startColumn": 31
+                          }
+                        },
+                        "message": {
+                          "text": "Wejdź do tej pętli (przyjmowane jest: „j<nH”)"
+                        }
+                      },
+                      "kinds": [
+                        "branch"
+                      ],
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/miche/source/repos/MES - obliczanie macierzy H/MES - obliczanie macierzy H/MES - obliczanie macierzy H.cpp"
+                          },
+                          "region": {
+                            "startLine": 356,
+                            "startColumn": 39
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/miche/source/repos/MES - obliczanie macierzy H/MES - obliczanie macierzy H/MES - obliczanie macierzy H.cpp"
+                          },
+                          "region": {
+                            "startLine": 357,
+                            "startColumn": 18
+                          }
+                        },
+                        "message": {
+                          "text": "Element „g” może mieć wartość równą 1"
+                        }
+                      },
+                      "kinds": [
+                        "declaration"
+                      ],
+                      "importance": "essential"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/miche/source/repos/MES - obliczanie macierzy H/MES - obliczanie macierzy H/MES - obliczanie macierzy H.cpp"
+                          },
+                          "region": {
+                            "startLine": 355,
+                            "startColumn": 38
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/miche/source/repos/MES - obliczanie macierzy H/MES - obliczanie macierzy H/MES - obliczanie macierzy H.cpp"
+                          },
+                          "region": {
+                            "startLine": 355,
+                            "startColumn": 31
+                          }
+                        },
+                        "message": {
+                          "text": "Wyjdź z tej pętli (przyjmowane jest, że element „j<nH” ma wartość false)"
+                        }
+                      },
+                      "kinds": [
+                        "branch"
+                      ],
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/miche/source/repos/MES - obliczanie macierzy H/MES - obliczanie macierzy H/MES - obliczanie macierzy H.cpp"
+                          },
+                          "region": {
+                            "startLine": 354,
+                            "startColumn": 34
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/miche/source/repos/MES - obliczanie macierzy H/MES - obliczanie macierzy H/MES - obliczanie macierzy H.cpp"
+                          },
+                          "region": {
+                            "startLine": 354,
+                            "startColumn": 27
+                          }
+                        },
+                        "message": {
+                          "text": "Kontynuuj tę pętlę (przyjmowane jest: „i<nB”)"
+                        }
+                      },
+                      "kinds": [
+                        "branch"
+                      ],
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/miche/source/repos/MES - obliczanie macierzy H/MES - obliczanie macierzy H/MES - obliczanie macierzy H.cpp"
+                          },
+                          "region": {
+                            "startLine": 355,
+                            "startColumn": 22
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/miche/source/repos/MES - obliczanie macierzy H/MES - obliczanie macierzy H/MES - obliczanie macierzy H.cpp"
+                          },
+                          "region": {
+                            "startLine": 355,
+                            "startColumn": 31
+                          }
+                        },
+                        "message": {
+                          "text": "Wejdź do tej pętli (przyjmowane jest: „j<nH”)"
+                        }
+                      },
+                      "kinds": [
+                        "branch"
+                      ],
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/miche/source/repos/MES - obliczanie macierzy H/MES - obliczanie macierzy H/MES - obliczanie macierzy H.cpp"
+                          },
+                          "region": {
+                            "startLine": 356,
+                            "startColumn": 39
+                          }
+                        },
+                        "message": {
+                          "text": "Element „g” jest argumentem We/Wy dla elementu „Node::uzupelnijNode” (deklaracja w wierszu 264)"
+                        }
+                      },
+                      "kinds": [
+                        "declaration"
+                      ],
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/miche/source/repos/MES - obliczanie macierzy H/MES - obliczanie macierzy H/MES - obliczanie macierzy H.cpp"
+                          },
+                          "region": {
+                            "startLine": 356,
+                            "startColumn": 39
+                          }
+                        },
+                        "message": {
+                          "text": "Nieprawidłowy odczyt z elementu „nodes[1]” (czytelny zakres od 0 do 0)"
+                        }
+                      },
+                      "kinds": [
+                        "usage"
+                      ],
+                      "importance": "essential"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26451",
+          "message": {
+            "text": "Przepełnienie arytmetyczne: użycie operatora „-” dla wartości bajtowej 4, a następnie rzutowanie wyniku na wartość bajtową 8. Rzutuj wartość na szerszy typ przed wywołaniem operatora „-” w celu uniknięcia przepełnienia (io.2)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/miche/source/repos/MES - obliczanie macierzy H/MES - obliczanie macierzy H/MES - obliczanie macierzy H.cpp"
+                },
+                "region": {
+                  "startLine": 350,
+                  "startColumn": 26,
+                  "endLine": 350,
+                  "endColumn": 31
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "??0Grid@@QAE@NNHH@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26451",
+          "message": {
+            "text": "Przepełnienie arytmetyczne: użycie operatora „-” dla wartości bajtowej 4, a następnie rzutowanie wyniku na wartość bajtową 8. Rzutuj wartość na szerszy typ przed wywołaniem operatora „-” w celu uniknięcia przepełnienia (io.2)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/miche/source/repos/MES - obliczanie macierzy H/MES - obliczanie macierzy H/MES - obliczanie macierzy H.cpp"
+                },
+                "region": {
+                  "startLine": 351,
+                  "startColumn": 26,
+                  "endLine": 351,
+                  "endColumn": 31
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "??0Grid@@QAE@NNHH@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "Zmienna „calkowanieGaussa::ksiDane” jest niezainicjowana. Zawsze inicjuj zmienną składową (type.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/miche/source/repos/MES - obliczanie macierzy H/MES - obliczanie macierzy H/MES - obliczanie macierzy H.cpp"
+                },
+                "region": {
+                  "startLine": 146,
+                  "startColumn": 1,
+                  "endLine": 146,
+                  "endColumn": 1
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "??0calkowanieGaussa@@QAE@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "properties": {
+            "targetSymbol": "calkowanieGaussa::ksiDane"
+          }
+        },
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "Zmienna „calkowanieGaussa::etaDane” jest niezainicjowana. Zawsze inicjuj zmienną składową (type.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/miche/source/repos/MES - obliczanie macierzy H/MES - obliczanie macierzy H/MES - obliczanie macierzy H.cpp"
+                },
+                "region": {
+                  "startLine": 146,
+                  "startColumn": 1,
+                  "endLine": 146,
+                  "endColumn": 1
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "??0calkowanieGaussa@@QAE@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "properties": {
+            "targetSymbol": "calkowanieGaussa::etaDane"
+          }
+        }
+      ],
+      "tool": {
+        "driver": {
+          "name": "PREfast",
+          "fullName": "PREfast Code Analysis",
+          "version": "14.29.30136.0",
+          "informationUri": "https://aka.ms/cpp/ca"
+        }
+      },
+      "invocations": [
+        {
+          "commandLine": "\"C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX86\\x86\\c1xx.dll\" -ACf{1F7B090C-16DB-4822-966A-A93D26ED4681} -ACpmspft140.dll -Alint -D_PREFAST_ -D_AST_FE_ -Analyze -zm0x007BD1C0 -il C:\\Users\\miche\\AppData\\Local\\Temp\\_CL_fddc3b1bast -typedil -f MES - obliczanie macierzy H.cpp -Ze -D_MSC_EXTENSIONS -Zp8 -Gs -pc \\:/ -D_MSC_VER=1929 -D_MSC_FULL_VER=192930136 -D_MSC_BUILD=0 -D_WIN32 -D_M_IX86=600 -D_M_IX86_FP=2 -GR -D_CPPRTTI -nologo -W 3 -diagnostics:column -D_GUARDOVERFLOW_CRT_ALLOCATORS=1 -Ot -DCODE_ANALYSIS -DWIN32 -D_DEBUG -D_CONSOLE -D_UNICODE -DUNICODE -EHs -D_CPPUNWIND -EHc -D__MSVC_RUNTIME_CHECKS -RTCs -RTCu -MDd -D_DEBUG -D_MT -D_DLL -GS -D_M_FP_PRECISE -permissive- -Zc:wchar_t -Zc:forScope -FoDebug\\MES - obliczanie macierzy H.obj -FdDebug\\vc142.pdb -external:W 3 -Gd -analyze:projectdirectory C:\\Users\\miche\\source\\repos\\MES - obliczanie macierzy H\\MES - obliczanie macierzy H -analyze:rulesetdirectory ;C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\Team Tools\\Static Analysis Tools\\\\Rule Sets; -analyze:ruleset C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\Team Tools\\Static Analysis Tools\\Rule Sets\\NativeRecommendedRules.ruleset -analyze:quiet -analyze:plugin C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX86\\x86\\EspXEngine.dll -FC -errorreport:prompt -I C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\include -I C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\atlmfc\\include -I C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Auxiliary\\VS\\include -I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\ucrt -I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\um -I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\shared -I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\winrt -I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\cppwinrt -I C:\\Users\\miche\\source\\repos\\MES - obliczanie macierzy H\\MES - obliczanie macierzy H\\Include\\um -external:I C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\include -I C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\include -external:I C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\atlmfc\\include -I C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\atlmfc\\include -external:I C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Auxiliary\\VS\\include -I C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Auxiliary\\VS\\include -external:I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\ucrt -I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\ucrt -external:I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\um -I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\um -external:I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\shared -I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\shared -external:I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\winrt -I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\winrt -external:I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\cppwinrt -I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\cppwinrt -external:I C:\\Users\\miche\\source\\repos\\MES - obliczanie macierzy H\\MES - obliczanie macierzy H\\Include\\um -I C:\\Users\\miche\\source\\repos\\MES - obliczanie macierzy H\\MES - obliczanie macierzy H\\Include\\um",
+          "executionSuccessful": true
+        }
+      ],
+      "artifacts": [
+        {
+          "location": {
+            "uri": "file:///C:/Users/miche/source/repos/MES - obliczanie macierzy H/MES - obliczanie macierzy H/MES - obliczanie macierzy H.cpp"
+          },
+          "roles": [
+            "analysisTarget",
+            "resultFile"
+          ],
+          "hashes": {
+            "md5": "095e6ee1c7e72427f0248e8d9c96bd38"
+          }
+        }
+      ]
+    }
+  ]
+}
